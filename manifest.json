@@ -1,0 +1,23 @@
+{
+  "name": "Dasari Harthik Portfolio",
+  "short_name": "Harthik",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "description": "Full Stack Developer Portfolio",
+  "icons": [
+    {
+      "src": "me.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "me.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
