@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dasari Harthik | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Premium Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item active">HOME</a></li>
+        <li><a href="#skills" class="nav-item">SKILLS</a></li>
+        <li><a href="#projects" class="nav-item">PROJECTS</a></li>
+        <li><a href="#certificates" class="nav-item">CERTIFICATES</a></li>
+        <li><a href="#achievements" class="nav-item">ACHIEVEMENTS</a></li>
+        <li><a href="#resume" class="nav-item">RESUME</a></li>
+        <li><a href="#contact" class="nav-item">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home section reveal">
+    <div class="home-container">
+      <div class="home-content">
+        <p class="greeting">Hi, my name is</p>
+        <h1 class="name text-gradient">Dasari Harthik</h1>
+        <h2 class="role">Full Stack Web Developer.</h2>
+        <p class="description">
+          Creative Full Stack Web Developer building scalable and innovative web applications.<br>
+          Passionate about translating complex problems into elegant, efficient digital solutions.
+        </p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="home-image">
+        <!-- Placeholder for Photo beside name -->
+        <div class="profile-photo-wrapper">
+          <img src="me.jpeg" alt="Dasari Harthik">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      
+      <div class="skills-filter">
+        <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> All</button>
+        <button class="filter-btn" data-filter="languages"><i class="fa-solid fa-code"></i> Languages</button>
+        <button class="filter-btn" data-filter="frontend"><i class="fa-solid fa-desktop"></i> Frontend</button>
+        <button class="filter-btn" data-filter="backend"><i class="fa-solid fa-server"></i> Backend</button>
+      </div>
+
+      <div class="skills-grid">
+        <!-- LANGUAGES -->
+        <div class="skill-item glass" data-category="languages">
+          <i class="fa-solid fa-c"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill-item glass" data-category="languages">
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-item glass" data-category="languages">
+          <i class="fa-brands fa-java"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-item glass" data-category="languages">
+          <i class="fa-solid fa-c"></i>
+          <span>C</span>
+        </div>
+        
+        <!-- FRONTEND -->
+        <div class="skill-item glass" data-category="frontend">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+        <div class="skill-item glass" data-category="frontend">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill-item glass" data-category="frontend">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item glass" data-category="frontend">
+          <i class="fa-brands fa-react"></i>
+          <span>React JS</span>
+        </div>
+
+        <!-- BACKEND -->
+        <div class="skill-item glass" data-category="backend">
+          <i class="fa-brands fa-node-js"></i>
+          <span>Node JS</span>
+        </div>
+        <div class="skill-item glass" data-category="backend">
+          <i class="fa-brands fa-php"></i>
+          <span>PHP</span>
+        </div>
+        <div class="skill-item glass" data-category="backend">
+          <i class="fa-solid fa-database"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="skill-item glass" data-category="backend">
+          <i class="fa-solid fa-leaf"></i>
+          <span>MongoDB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-list">
+        <!-- Project 1 -->
+        <div class="project-card glass">
+          <div class="project-image-box">
+            <img src="scholar.png" alt="Scholarship Portal">
+          </div>
+          <div class="project-info">
+            <div class="project-header">
+              <h3>Cross-State Scholarship Portal</h3>
+              <span class="project-date">Oct '25 — Nov '25</span>
+            </div>
+            <p class="project-desc">
+              Built a scholarship portal that enables students to explore available scholarships, verify eligibility, and submit applications online. Created an interactive front-end while developing backend services for authentication and data management.
+            </p>
+            <div class="project-tech">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/harthikdasari/scholarship-portal.git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="https://scholarship-portal-gamma.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card glass">
+          <div class="project-image-box">
+            <img src="pet.png" alt="Pet Finder System">
+          </div>
+          <div class="project-info">
+            <div class="project-header">
+              <h3>Pet Finder – Adoption & Care System</h3>
+              <span class="project-date">Mar '25 — Apr '25</span>
+            </div>
+            <p class="project-desc">
+              Developed a platform that allows users to browse pets, submit adoption requests, and access pet care information. Designed a responsive UI and implemented backend logic for user login, pet listings, and reliable database operations.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/harthikdasari/pet-adoption.git" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="https://pet-adoption-3cyb.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certificates-list">
+        <!-- Certificate 1 -->
+        <div class="cert-image-card">
+          <img src="cloud.jpg" alt="Cloud Computing">
+          <div class="cert-overlay">
+            <div class="cert-overlay-content">
+              <h4>Cloud Computing</h4>
+              <p>NPTEL (Nov '25)</p>
+              <a href="https://drive.google.com/file/d/1CRO2i7D-_fdgg7VnN_z2YtoR1deVHsns/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm mt-3">View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 2 -->
+        <div class="cert-image-card">
+          <img src="course.jpeg" alt="Network Communication">
+          <div class="cert-overlay">
+            <div class="cert-overlay-content">
+              <h4>Fundamentals of Network Communication</h4>
+              <p>Coursera (Nov '24)</p>
+              <a href="https://coursera.org/share/dbe30d38fd49ef9bfaa142d9a66196e2" target="_blank" class="btn btn-primary btn-sm mt-3">View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 3 -->
+        <div class="cert-image-card">
+          <img src="udemy.jpg" alt="Python 3">
+          <div class="cert-overlay">
+            <div class="cert-overlay-content">
+              <h4>Learn to Code in Python 3</h4>
+              <p>Udemy (Nov '23)</p>
+              <a href="https://www.udemy.com/certificate/UC-0fdfe8c2-c41e-4e0c-8976-3982a3364e55/" target="_blank" class="btn btn-primary btn-sm mt-3">View Certificate</a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 4 -->
+        <div class="cert-image-card">
+          <img src="fcc.jpg" alt="Responsive Web Design">
+          <div class="cert-overlay">
+            <div class="cert-overlay-content">
+              <h4>Responsive Web Design</h4>
+              <p>Free Code Camp (Nov '23)</p>
+              <a href="https://www.freecodecamp.org/certification/harthik5/responsive-web-design" target="_blank" class="btn btn-primary btn-sm mt-3">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section reveal">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div class="timeline">
+        <div class="timeline-item glass">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Binary Blitz Hackathon</h3>
+            <span class="timeline-org">Hackathon</span>
+            <p>Qualified for the highly competitive second round in the Binary Blitz Hackathon, showcasing rapid algorithmic problem-solving and full-stack development skills under severe time constraints.</p>
+            <a href="binary blitz.png" target="_blank" class="btn btn-primary btn-sm mt-3"><i class="fa-solid fa-trophy"></i> View Details</a>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>HackerRank 3-Star Rating</h3>
+            <span class="timeline-org">Python Programming</span>
+            <p>Earned a prestigious 3-star rating in Python on HackerRank, demonstrating high-level proficiency in data structures, algorithmic design, and competitive programming logic.</p>
+            <a href="https://www.hackerrank.com/profile/harthik55555" target="_blank" class="btn btn-primary btn-sm mt-3"><i class="fa-brands fa-hackerrank"></i> View Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section reveal">
+    <div class="container text-center">
+      <h2 class="section-title justify-center">My Resume</h2>
+      <p class="resume-text">Want to take a deeper look at my experience and qualifications?</p>
+      <a href="cv.pdf" class="btn btn-primary resume-btn" download>
+        <i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <h2 class="section-title text-center justify-center">Get In Touch</h2>
+      <p class="contact-desc text-center">Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+      
+      <div class="contact-layout">
+        <!-- Contact Form (Left) -->
+        <div class="contact-form-wrapper glass">
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+              <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+        
+        <!-- Social Links (Right) -->
+        <div class="contact-socials">
+          <div class="social-card glass">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:dasariharthik@gmail.com">dasariharthik@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="social-card glass">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="https://linkedin.com/in/harthikdasari" target="_blank">in/harthikdasari</a></p>
+            </div>
+          </div>
+          <div class="social-card glass">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <h3>GitHub</h3>
+              <p><a href="https://github.com/in/harthikdasari" target="_blank">in/harthikdasari</a></p>
+            </div>
+          </div>
+          <div class="social-card glass">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Mobile</h3>
+              <p><a href="tel:+916300634221">+91 6300634221</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed & Built by Dasari Harthik &copy; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
